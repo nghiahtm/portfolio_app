@@ -33,15 +33,10 @@ class HomePage extends StatelessWidget {
         padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
         child: Column(
           children: [
-            CircleAvatar(
+            const CircleAvatar(
               radius: 60.0,
               backgroundColor: Colors.transparent,
-              child: ClipOval(
-                child: Image.asset(
-                  ImageConstant.imageAvatar,
-                  fit: BoxFit.fill,
-                ),
-              ),
+              backgroundImage: AssetImage(ImageConstant.imageAvatar),
             ),
             const SizedBox(
               height: 4,
@@ -61,7 +56,7 @@ class HomePage extends StatelessWidget {
                 children: [
                   const AboutMeWidget(),
                   const ProjectWidget(),
-                  ExpansionPanelItem(
+                  const ExpansionPanelItem(
                     titleHeader: 'Mục tiêu',
                   ),
                   Padding(

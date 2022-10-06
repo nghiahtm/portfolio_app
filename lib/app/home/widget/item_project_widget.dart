@@ -3,8 +3,9 @@ import 'package:portfolio_nghia/config/color_ui.dart';
 import 'package:portfolio_nghia/config/style_app.dart';
 
 class ItemProjectWidget extends StatelessWidget {
-  const ItemProjectWidget({Key? key, required this.nameProject}) : super(key: key);
+  const ItemProjectWidget({Key? key, required this.nameProject, required this.imageProject}) : super(key: key);
   final String nameProject;
+  final String imageProject;
   @override
   Widget build(BuildContext context) {
     return  Row(
@@ -14,8 +15,7 @@ class ItemProjectWidget extends StatelessWidget {
           backgroundColor: ColorUI.whiteCoffee,
           child: ClipOval(
             child: Image.asset(
-              'assets/image/hyh-logo.png',
-              fit: BoxFit.fill,
+              imageProject,
             ),
           ),
         ),

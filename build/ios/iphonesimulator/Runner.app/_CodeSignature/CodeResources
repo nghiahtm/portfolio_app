@@ -110,7 +110,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		LWf1qCHW6sPF0I0ZPKIeAehYTgU=
+		FTcA4HDPnUkOsxGVWU0ujOZI7No=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -118,11 +118,11 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		OiqpU3G6Pm9zMy+cOpHeBe3k918=
+		ZVjs0AzfV8YwbvVKwJCdz6Hr+x8=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		MTxZlq5Q2m9gpEbtwFRc1+g19Ig=
+		XsZbABJCocH6OxG5M4DkbEQksO8=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -130,11 +130,19 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES.Z</key>
 		<data>
-		gFDgGyXIMPdxxGgR+EToQldyEyU=
+		USPKnOR5v0iguBQt0lGiKaozWqg=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/image/Mednet-logo.png</key>
+		<data>
+		6pjWS0Zdy2nSCpJ0Q6qfapSza3Q=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/image/avatar.jpeg</key>
 		<data>
 		yhwJMPxmRrGlxSO5Fx0DWe3YvVQ=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/image/hyh-logo.png</key>
+		<data>
+		S3cQ3TDbm78KHO6iX2x2uLhXx0U=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/image/icon-facebook.png</key>
 		<data>
@@ -166,7 +174,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		3Mq4vIvOr7Nu45DZnbtamep9JgM=
+		pQtoybxXhzhRl9Vhh2C01+aOpUc=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -270,11 +278,23 @@
 		</data>
 		<key>Frameworks/url_launcher_ios.framework/url_launcher_ios</key>
 		<data>
-		fIu/FsezZwZRII0QRUY6Gs7y4P0=
+		4t0ewesbgv1OztnYDCqywuD1pFQ=
+		</data>
+		<key>Frameworks/webview_flutter_wkwebview.framework/Info.plist</key>
+		<data>
+		xnnmozq4bo8Sgu9JATSPPNUEsj8=
+		</data>
+		<key>Frameworks/webview_flutter_wkwebview.framework/_CodeSignature/CodeResources</key>
+		<data>
+		DFUCdKJVA8hZhhTskI/3K2ALzpE=
+		</data>
+		<key>Frameworks/webview_flutter_wkwebview.framework/webview_flutter_wkwebview</key>
+		<data>
+		8XNYwH7Zye9tV/y7VRfvTLXQc10=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VXzn/CDpgTDfJ9KlAoDNyHffqx4=
+		vPhCcDuxNfZel4+LUnguBJFePKU=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -573,11 +593,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LWf1qCHW6sPF0I0ZPKIeAehYTgU=
+			FTcA4HDPnUkOsxGVWU0ujOZI7No=
 			</data>
 			<key>hash2</key>
 			<data>
-			t1Ew6lRpUE09TMdrJlDLECG7hGD0P1ENDgLLJs1Svm4=
+			6zWQTt5aqlk8F/tAhph2fcd2/EnlQZGFbREwTWBkDvQ=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -595,22 +615,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OiqpU3G6Pm9zMy+cOpHeBe3k918=
+			ZVjs0AzfV8YwbvVKwJCdz6Hr+x8=
 			</data>
 			<key>hash2</key>
 			<data>
-			o6/RIBxycL3T5TMH2hdjkz5xmPXY9dDiuAgg/YJQMkE=
+			Ad2SEZF8GGg5Wib0YYyxIbLB+6OWSWH7eYoCLy/2qX0=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MTxZlq5Q2m9gpEbtwFRc1+g19Ig=
+			XsZbABJCocH6OxG5M4DkbEQksO8=
 			</data>
 			<key>hash2</key>
 			<data>
-			uiGRUM9/yN8iYIWN+P25b35ueJN58z69tAIsuMFZLyI=
+			sZr0Gv7eYVguDm3oA5+w+62qG7ATqw4Rq8Vpj4P2/Lc=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -628,11 +648,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gFDgGyXIMPdxxGgR+EToQldyEyU=
+			USPKnOR5v0iguBQt0lGiKaozWqg=
 			</data>
 			<key>hash2</key>
 			<data>
-			RfOp9rviZoA3KBQ/D+ESaBbb2cerqczwHJ/0G7LQMqA=
+			qYsq40w87t9xseT4XByBzXFjdtNN3gNU9uGqBYzRZ74=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/image/Mednet-logo.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6pjWS0Zdy2nSCpJ0Q6qfapSza3Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			pUP2cqqGRsJEpNH6wO+UO6tlJ2Zjtoyxl4fv0AoQDOU=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/image/avatar.jpeg</key>
@@ -644,6 +675,17 @@
 			<key>hash2</key>
 			<data>
 			48t892Adg2qa0TVevuMnaYKtliutk6rO3vk+eKfUhGE=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/image/hyh-logo.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			S3cQ3TDbm78KHO6iX2x2uLhXx0U=
+			</data>
+			<key>hash2</key>
+			<data>
+			JkhR0xIkOnCvObtExF+D3DHbEe2HXFWS/+Zkl26cpmM=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/image/icon-facebook.png</key>
@@ -727,11 +769,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3Mq4vIvOr7Nu45DZnbtamep9JgM=
+			pQtoybxXhzhRl9Vhh2C01+aOpUc=
 			</data>
 			<key>hash2</key>
 			<data>
-			YsmjIH0GZjmLMpfm0w0eAzULaiU0M7ZPN9a3u/ejlNg=
+			Qyl8z7e1A0L8hb262MoOWWYWvdsq06XUuQtablbu5lM=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -1013,11 +1055,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fIu/FsezZwZRII0QRUY6Gs7y4P0=
+			4t0ewesbgv1OztnYDCqywuD1pFQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z5GskKNPWiYIZIZe4g5Hl0bgC/oPBimouJoMVBqprIw=
+			jtYlgeoiMlFPn0AVWOmDNtnqdAx/U0ecGEBeuO73iWg=
+			</data>
+		</dict>
+		<key>Frameworks/webview_flutter_wkwebview.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xnnmozq4bo8Sgu9JATSPPNUEsj8=
+			</data>
+			<key>hash2</key>
+			<data>
+			YyjA1EiVZPtKsEz2ZZ1kQ6MzL2EJYAJjmKCoC97PE0s=
+			</data>
+		</dict>
+		<key>Frameworks/webview_flutter_wkwebview.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DFUCdKJVA8hZhhTskI/3K2ALzpE=
+			</data>
+			<key>hash2</key>
+			<data>
+			BlX6FGAmjZ9LB7lPqtIyW30HcvYMktSoCnZZe9IyHAk=
+			</data>
+		</dict>
+		<key>Frameworks/webview_flutter_wkwebview.framework/webview_flutter_wkwebview</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8XNYwH7Zye9tV/y7VRfvTLXQc10=
+			</data>
+			<key>hash2</key>
+			<data>
+			RjcPpi3yq1cFN9KvuSRzz5atI9qsaL+kEkVS65zLvUs=
 			</data>
 		</dict>
 	</dict>
