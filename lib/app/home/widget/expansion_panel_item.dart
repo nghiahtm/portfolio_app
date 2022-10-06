@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio_nghia/app/config/color_ui.dart';
+import 'package:portfolio_nghia/config/color_ui.dart';
 
 class ExpansionPanelItem extends StatelessWidget {
   const ExpansionPanelItem(

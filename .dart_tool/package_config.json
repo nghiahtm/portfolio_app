@@ -212,13 +212,37 @@
       "languageVersion": "2.14"
     },
     {
+      "name": "webview_flutter",
+      "rootUri": "file:///Users/nghiahoang/Downloads/Flutter-sdk/flutter/.pub-cache/hosted/pub.dartlang.org/webview_flutter-3.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "webview_flutter_android",
+      "rootUri": "file:///Users/nghiahoang/Downloads/Flutter-sdk/flutter/.pub-cache/hosted/pub.dartlang.org/webview_flutter_android-2.10.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "webview_flutter_platform_interface",
+      "rootUri": "file:///Users/nghiahoang/Downloads/Flutter-sdk/flutter/.pub-cache/hosted/pub.dartlang.org/webview_flutter_platform_interface-1.9.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "webview_flutter_wkwebview",
+      "rootUri": "file:///Users/nghiahoang/Downloads/Flutter-sdk/flutter/.pub-cache/hosted/pub.dartlang.org/webview_flutter_wkwebview-2.9.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "portfolio_nghia",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2022-10-06T00:32:11.442169Z",
+  "generated": "2022-10-06T06:25:48.231743Z",
   "generator": "pub",
   "generatorVersion": "2.17.1"
 }

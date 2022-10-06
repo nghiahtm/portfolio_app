@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio_nghia/app/config/color_ui.dart';
-import 'package:portfolio_nghia/app/config/constants.dart';
-import 'package:portfolio_nghia/app/config/image.dart';
-import 'package:portfolio_nghia/app/config/style_app.dart';
+import 'package:portfolio_nghia/config/constants.dart';
+import 'package:portfolio_nghia/config/image.dart';
+import 'package:portfolio_nghia/config/style_app.dart';
 import 'package:portfolio_nghia/app/home/widget/expansion_panel_item.dart';
 import 'package:portfolio_nghia/app/home/widget/item_contact_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -60,8 +59,8 @@ class HomePage extends StatelessWidget {
                 shrinkWrap: true,
                 padding: EdgeInsets.zero,
                 children: [
-                  AboutMeWidget(),
-                  ProjectWidget(),
+                  const AboutMeWidget(),
+                  const ProjectWidget(),
                   ExpansionPanelItem(
                     titleHeader: 'Mục tiêu',
                   ),
