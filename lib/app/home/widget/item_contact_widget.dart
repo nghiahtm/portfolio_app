@@ -24,6 +24,7 @@ class ItemContactWidget extends StatelessWidget {
           Image.asset(
             imageAsset,
             height: 36,
+            width: 24,
           ),
           const SizedBox(
             width: 8,

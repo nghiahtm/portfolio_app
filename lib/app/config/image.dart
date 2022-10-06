@@ -4,7 +4,7 @@ class ImageConstant {
   static List<String> listIconSocial = [
     'assets/image/icon-facebook.png',
     'assets/image/icon-github.jpg',
-    'assets/image/icon-gmail.jpg',
+    'assets/image/icon-gmail.png',
     'assets/image/icon-linkedin.png',
   ];
 }
