@@ -30,13 +30,23 @@ class AboutMeWidget extends StatelessWidget {
             style: StyleApp.headline4,
           ),
         ),
-        // Align(
-        //     alignment: Alignment.centerLeft,
-        //     child: Text(
-        //       'Sở thích:',
-        //       style: StyleApp.headline4
-        //           .copyWith(color: ColorUI.redClothesArsenal),
-        //     )),
+        Align(
+            alignment: Alignment.centerLeft,
+            child: Text(
+              'Thời gian làm việc:',
+              style: StyleApp.headline4
+                  .copyWith(color: ColorUI.redClothesArsenal),
+            )),
+        Align(
+          alignment: Alignment.centerLeft,
+          child: Padding(
+            padding: const EdgeInsets.only(left: 8.0),
+            child: Text(
+              Constants.company,
+              style: StyleApp.headline4,
+            ),
+          ),
+        ),
       ],
     );
   }

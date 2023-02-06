@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio_nghia/app/home/widget/target_widget.dart';
 import 'package:portfolio_nghia/config/constants.dart';
 import 'package:portfolio_nghia/config/image.dart';
-import 'package:portfolio_nghia/config/routes_constant.dart';
 import 'package:portfolio_nghia/config/style_app.dart';
-import 'package:portfolio_nghia/app/home/widget/expansion_panel_item.dart';
 import 'package:portfolio_nghia/app/home/widget/item_contact_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -12,6 +11,12 @@ import 'widget/project_widget.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
+  String? encodeQueryParameters(Map<String, String> params) {
+    return params.entries
+        .map((MapEntry<String, String> e) =>
+            '${Uri.encodeComponent(e.key)}=${Uri.encodeComponent(e.value)}')
+        .join('&');
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -57,9 +62,7 @@ class HomePage extends StatelessWidget {
                 children: [
                   const AboutMeWidget(),
                   const ProjectWidget(),
-                  const ExpansionPanelItem(
-                    titleHeader: 'Mục tiêu',
-                  ),
+                  const TargetWidget(),
                   Padding(
                     padding: const EdgeInsets.symmetric(vertical: 16.0),
                     child: Text(
@@ -75,6 +78,21 @@ class HomePage extends StatelessWidget {
                         final title = Constants.listTitleSocial[index];
                         return ItemContactWidget(
                           imageAsset: icon,
+                          onTap: () async {
+                            if (index == 2) {
+                              final Uri emailLaunchUri = Uri(
+                                scheme: 'mailto',
+                                path: 'nghia.htm97@gmail.com',
+                                query: encodeQueryParameters(<String, String>{
+                                  'subject': 'Tới: Minh Nghĩa',
+                                }),
+                              );
+                              launchUrl(emailLaunchUri);
+                              return;
+                            }
+                            await launchUrl(
+                                Uri.parse(Constants.webView[index]));
+                          },
                           titleContact: title,
                         );
                       },
