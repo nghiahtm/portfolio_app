@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>626935295493-92quhtsto1t3vcf33mtuqbe545cjdfpr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.626935295493-92quhtsto1t3vcf33mtuqbe545cjdfpr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCeHC4mo4aZTTtfrSXQE9XdX-6eEI7Y9ms</string>
+	<key>GCM_SENDER_ID</key>
+	<string>626935295493</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.portfolioNghia</string>
+	<key>PROJECT_ID</key>
+	<string>portfolio-nghia</string>
+	<key>STORAGE_BUCKET</key>
+	<string>portfolio-nghia.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:626935295493:ios:71a9c25909f6ac821b366c</string>
+</dict>
+</plist>

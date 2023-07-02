@@ -14,14 +14,15 @@ class AboutMeWidget extends StatelessWidget {
       children: [
         Align(
             alignment: Alignment.centerLeft,
-            child: Text('Tôi là Nghĩa, Mobile Developer\n',
+            child: Text(
+                'Tôi là Nghĩa, Mobile Developer.\nSinh viên năm thứ nhất tại học viện công nghệ BKACAD\n',
                 style: StyleApp.headline4)),
         Align(
             alignment: Alignment.centerLeft,
             child: Text(
               'Kinh nghiệm:',
-              style: StyleApp.headline4
-                  .copyWith(color: ColorUI.redClothesArsenal),
+              style:
+                  StyleApp.headline4.copyWith(color: ColorUI.redClothesArsenal),
             )),
         Padding(
           padding: const EdgeInsets.only(left: 8.0),
@@ -34,8 +35,8 @@ class AboutMeWidget extends StatelessWidget {
             alignment: Alignment.centerLeft,
             child: Text(
               'Thời gian làm việc:',
-              style: StyleApp.headline4
-                  .copyWith(color: ColorUI.redClothesArsenal),
+              style:
+                  StyleApp.headline4.copyWith(color: ColorUI.redClothesArsenal),
             )),
         Align(
           alignment: Alignment.centerLeft,

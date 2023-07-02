@@ -29,6 +29,13 @@
             {
               "client_id": "626935295493-idrp5l95vr6mgle3830nmvnpe0ma01s2.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "626935295493-92quhtsto1t3vcf33mtuqbe545cjdfpr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.portfolioNghia"
+              }
             }
           ]
         }

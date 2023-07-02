@@ -1,16 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio_nghia/app/home/home_controller.dart';
 import 'package:portfolio_nghia/app/home/widget/target_widget.dart';
 import 'package:portfolio_nghia/config/constants.dart';
 import 'package:portfolio_nghia/config/image.dart';
 import 'package:portfolio_nghia/config/style_app.dart';
 import 'package:portfolio_nghia/app/home/widget/item_contact_widget.dart';
+import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
-
 import 'widget/about_me_widget.dart';
 import 'widget/project_widget.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
+
   String? encodeQueryParameters(Map<String, String> params) {
     return params.entries
         .map((MapEntry<String, String> e) =>
@@ -24,7 +26,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text(
-          'Xin chào',
+          'Portfolio',
           style: StyleApp.appBarTitle,
         ),
         actions: [
@@ -48,7 +50,7 @@ class HomePage extends StatelessWidget {
               height: 4,
             ),
             Text(
-              'Hoàng Thọ Minh Nghĩa',
+              context.watch<HomeController>().portfolioModel?.name ?? "",
               textAlign: TextAlign.center,
               style: StyleApp.headline2,
             ),
