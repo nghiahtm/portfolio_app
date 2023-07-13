@@ -22,7 +22,7 @@ class ItemProjectWidget extends StatelessWidget {
             radius: 20,
             backgroundColor: ColorUI.whiteCoffee,
             child: ClipOval(
-              child: Image.asset(
+              child: Image.network(
                 imageProject,
               ),
             ),

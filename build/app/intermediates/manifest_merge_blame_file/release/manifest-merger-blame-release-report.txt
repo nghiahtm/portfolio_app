@@ -1,0 +1,201 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.portfolio_nghia"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml
+10
+11    <queries>
+11-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:34:5-45:15
+12
+13        <!-- If your app checks for SMS support -->
+14        <intent>
+14-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:36:9-39:18
+15            <action android:name="android.intent.action.VIEW" />
+15-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:37:13-65
+15-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:37:21-62
+16
+17            <data android:scheme="sms" />
+17-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:38:13-42
+17-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:38:19-39
+18        </intent>
+19        <!-- If your app checks for call support -->
+20        <intent>
+20-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:41:9-44:18
+21            <action android:name="android.intent.action.VIEW" />
+21-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:37:13-65
+21-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:37:21-62
+22
+23            <data android:scheme="tel" />
+23-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:38:13-42
+23-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:38:19-39
+24        </intent>
+25    </queries>
+26    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+27    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+28    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+28-->[com.google.firebase:firebase-firestore:24.4.2] /Users/nghiahoang/.gradle/caches/transforms-3/411029df19313d39daea5da5a29de6f9/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:12:5-79
+28-->[com.google.firebase:firebase-firestore:24.4.2] /Users/nghiahoang/.gradle/caches/transforms-3/411029df19313d39daea5da5a29de6f9/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:12:22-76
+29    <uses-permission android:name="android.permission.INTERNET" />
+29-->[com.google.firebase:firebase-firestore:24.4.2] /Users/nghiahoang/.gradle/caches/transforms-3/411029df19313d39daea5da5a29de6f9/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:13:5-67
+29-->[com.google.firebase:firebase-firestore:24.4.2] /Users/nghiahoang/.gradle/caches/transforms-3/411029df19313d39daea5da5a29de6f9/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:13:22-64
+30
+31    <application
+32        android:name="android.app.Application"
+32-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:5:9-42
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.6.0] /Users/nghiahoang/.gradle/caches/transforms-3/aa701b47cec244085d46a1a42fcc7fb9/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+34        android:icon="@mipmap/ic_launcher"
+34-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:6:9-43
+35        android:label="portfolio_nghia" >
+35-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:4:9-40
+36        <activity
+36-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:7:9-27:20
+37            android:name="com.example.portfolio_nghia.MainActivity"
+37-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:8:13-41
+38            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+38-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:12:13-163
+39            android:exported="true"
+39-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:9:13-36
+40            android:hardwareAccelerated="true"
+40-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:13:13-47
+41            android:launchMode="singleTop"
+41-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:10:13-43
+42            android:theme="@style/LaunchTheme"
+42-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:11:13-47
+43            android:windowSoftInputMode="adjustResize" >
+43-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:14:13-55
+44
+45            <!--
+46                 Specifies an Android theme to apply to this Activity as soon as
+47                 the Android process has started. This theme is visible to the user
+48                 while the Flutter UI initializes. After that, this theme continues
+49                 to determine the Window background behind the Flutter UI.
+50            -->
+51            <meta-data
+51-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:19:13-22:17
+52                android:name="io.flutter.embedding.android.NormalTheme"
+52-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:20:15-70
+53                android:resource="@style/NormalTheme" />
+53-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:21:15-52
+54
+55            <intent-filter>
+55-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:23:13-26:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:24:17-68
+56-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:24:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:25:17-76
+58-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:25:27-74
+59            </intent-filter>
+60        </activity>
+61        <!--
+62             Don't delete the meta-data below.
+63             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+64        -->
+65        <meta-data
+65-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:30:9-32:33
+66            android:name="flutterEmbedding"
+66-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:31:13-44
+67            android:value="2" />
+67-->/Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml:32:13-30
+68
+69        <service
+69-->[:firebase_storage] /Users/nghiahoang/portfolio_app/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+70            android:name="com.google.firebase.components.ComponentDiscoveryService"
+70-->[:firebase_storage] /Users/nghiahoang/portfolio_app/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+71            android:directBootAware="true"
+71-->[com.google.firebase:firebase-common:20.3.0] /Users/nghiahoang/.gradle/caches/transforms-3/ac20124166528b90eb750a9c2aadf745/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:34:13-43
+72            android:exported="false" >
+72-->[com.google.firebase:firebase-firestore:24.4.2] /Users/nghiahoang/.gradle/caches/transforms-3/411029df19313d39daea5da5a29de6f9/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:18:13-37
+73            <meta-data
+73-->[:firebase_storage] /Users/nghiahoang/portfolio_app/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+74                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+74-->[:firebase_storage] /Users/nghiahoang/portfolio_app/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-126
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[:firebase_storage] /Users/nghiahoang/portfolio_app/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+76            <meta-data
+76-->[:cloud_firestore] /Users/nghiahoang/portfolio_app/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+77                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+77-->[:cloud_firestore] /Users/nghiahoang/portfolio_app/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-134
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[:cloud_firestore] /Users/nghiahoang/portfolio_app/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+79            <meta-data
+79-->[:firebase_core] /Users/nghiahoang/portfolio_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+80                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+80-->[:firebase_core] /Users/nghiahoang/portfolio_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[:firebase_core] /Users/nghiahoang/portfolio_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-firestore:24.4.2] /Users/nghiahoang/.gradle/caches/transforms-3/411029df19313d39daea5da5a29de6f9/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:19:13-21:85
+83                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+83-->[com.google.firebase:firebase-firestore:24.4.2] /Users/nghiahoang/.gradle/caches/transforms-3/411029df19313d39daea5da5a29de6f9/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:20:17-111
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-firestore:24.4.2] /Users/nghiahoang/.gradle/caches/transforms-3/411029df19313d39daea5da5a29de6f9/transformed/jetified-firebase-firestore-24.4.2/AndroidManifest.xml:21:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-storage:20.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/0da25f878ca7fc72a1a3e4059e81557e/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
+86                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+86-->[com.google.firebase:firebase-storage:20.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/0da25f878ca7fc72a1a3e4059e81557e/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-storage:20.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/0da25f878ca7fc72a1a3e4059e81557e/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
+88        </service>
+89
+90        <activity
+90-->[:url_launcher_android] /Users/nghiahoang/portfolio_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+91            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+91-->[:url_launcher_android] /Users/nghiahoang/portfolio_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+92            android:exported="false"
+92-->[:url_launcher_android] /Users/nghiahoang/portfolio_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+93            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+93-->[:url_launcher_android] /Users/nghiahoang/portfolio_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+94
+95        <uses-library
+95-->[androidx.window:window:1.0.0-beta04] /Users/nghiahoang/.gradle/caches/transforms-3/542a859793ec57d6a4d40865c7efc6d9/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+96            android:name="androidx.window.extensions"
+96-->[androidx.window:window:1.0.0-beta04] /Users/nghiahoang/.gradle/caches/transforms-3/542a859793ec57d6a4d40865c7efc6d9/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+97            android:required="false" />
+97-->[androidx.window:window:1.0.0-beta04] /Users/nghiahoang/.gradle/caches/transforms-3/542a859793ec57d6a4d40865c7efc6d9/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+98        <uses-library
+98-->[androidx.window:window:1.0.0-beta04] /Users/nghiahoang/.gradle/caches/transforms-3/542a859793ec57d6a4d40865c7efc6d9/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+99            android:name="androidx.window.sidecar"
+99-->[androidx.window:window:1.0.0-beta04] /Users/nghiahoang/.gradle/caches/transforms-3/542a859793ec57d6a4d40865c7efc6d9/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+100            android:required="false" />
+100-->[androidx.window:window:1.0.0-beta04] /Users/nghiahoang/.gradle/caches/transforms-3/542a859793ec57d6a4d40865c7efc6d9/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+101
+102        <provider
+102-->[com.google.firebase:firebase-common:20.3.0] /Users/nghiahoang/.gradle/caches/transforms-3/ac20124166528b90eb750a9c2aadf745/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:25:9-30:39
+103            android:name="com.google.firebase.provider.FirebaseInitProvider"
+103-->[com.google.firebase:firebase-common:20.3.0] /Users/nghiahoang/.gradle/caches/transforms-3/ac20124166528b90eb750a9c2aadf745/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:26:13-77
+104            android:authorities="com.example.portfolio_nghia.firebaseinitprovider"
+104-->[com.google.firebase:firebase-common:20.3.0] /Users/nghiahoang/.gradle/caches/transforms-3/ac20124166528b90eb750a9c2aadf745/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:27:13-72
+105            android:directBootAware="true"
+105-->[com.google.firebase:firebase-common:20.3.0] /Users/nghiahoang/.gradle/caches/transforms-3/ac20124166528b90eb750a9c2aadf745/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:28:13-43
+106            android:exported="false"
+106-->[com.google.firebase:firebase-common:20.3.0] /Users/nghiahoang/.gradle/caches/transforms-3/ac20124166528b90eb750a9c2aadf745/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:29:13-37
+107            android:initOrder="100" />
+107-->[com.google.firebase:firebase-common:20.3.0] /Users/nghiahoang/.gradle/caches/transforms-3/ac20124166528b90eb750a9c2aadf745/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:30:13-36
+108
+109        <activity
+109-->[com.google.android.gms:play-services-base:18.0.1] /Users/nghiahoang/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+110            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+110-->[com.google.android.gms:play-services-base:18.0.1] /Users/nghiahoang/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+111            android:exported="false"
+111-->[com.google.android.gms:play-services-base:18.0.1] /Users/nghiahoang/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+112            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+112-->[com.google.android.gms:play-services-base:18.0.1] /Users/nghiahoang/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+113
+114        <meta-data
+114-->[com.google.android.gms:play-services-basement:18.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/3ee0f8915dc9bf42c60f3eef0b7bd28a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+115            android:name="com.google.android.gms.version"
+115-->[com.google.android.gms:play-services-basement:18.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/3ee0f8915dc9bf42c60f3eef0b7bd28a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+116            android:value="@integer/google_play_services_version" />
+116-->[com.google.android.gms:play-services-basement:18.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/3ee0f8915dc9bf42c60f3eef0b7bd28a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+117    </application>
+118
+119</manifest>

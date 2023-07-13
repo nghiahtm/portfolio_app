@@ -11,11 +11,15 @@ class ProjectData {
     final projects = <ProjectModel>[];
     final documents = await firebaseConfig.firebaseFirestore
         .collection("portfolio")
-        .doc("xg78qBsMMQO5GnrN0gd4").collection("project").get();
-    for (final document in documents.docs){
-      projects.add(ProjectModel.fromJson(document.data()));
+        .doc("xg78qBsMMQO5GnrN0gd4")
+        .collection("project")
+        .get();
+    for (final document in documents.docs) {
+      final project = ProjectModel.fromJson(document.data());
+      final url = await getUrlImage(project.image);
+      projects.add(project..image=url);
     }
-    if(projects.isNotEmpty){
+    if (projects.isNotEmpty) {
       return projects;
     }
     return null;
@@ -24,10 +28,23 @@ class ProjectData {
   Future<PortfolioModel?> getPortfolio() async {
     final documents = await firebaseConfig.firebaseFirestore
         .collection("portfolio")
-        .doc("xg78qBsMMQO5GnrN0gd4").get();
+        .doc("xg78qBsMMQO5GnrN0gd4")
+        .get();
     final getData = documents.data();
-    if(getData != null && getData.isNotEmpty){
-      return PortfolioModel.fromJson(getData);
+    if (getData != null && getData.isNotEmpty) {
+      final portfolio = PortfolioModel.fromJson(getData);
+      final url = await getUrlImage(portfolio.avatar);
+      return portfolio
+        ..avatar = url;
+    }
+    return null;
+  }
+
+  Future<String?> getUrlImage(String? image) async {
+    if (image != null) {
+      final urlRef =
+          firebaseConfig.firebaseStorage.ref().child("project").child(image);
+      return await urlRef.getDownloadURL();
     }
     return null;
   }

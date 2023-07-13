@@ -6,10 +6,13 @@ class ProjectModel {
   String? role;
   List<String>? technologies;
   String? state;
+  String? google;
+  String? ios;
   ProjectModel(
       {this.name,
       this.image,
       this.countMembers,
+        this.google,this.ios,
       this.description,
         this.state,
       this.role,
@@ -23,6 +26,8 @@ class ProjectModel {
     return ProjectModel(
       name: json['name'],
       image: json['image'],
+      google: json['google'],
+      ios: json['ios'],
       countMembers: json['countMembers'],
       description: json['description'],
       role: json['role'],

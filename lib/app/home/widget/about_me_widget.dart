@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio_nghia/config/color_ui.dart';
-import 'package:portfolio_nghia/config/constants.dart';
 import 'package:portfolio_nghia/config/style_app.dart';
 import 'package:portfolio_nghia/app/home/widget/expansion_panel_item.dart';
 
 class AboutMeWidget extends StatelessWidget {
-  const AboutMeWidget({Key? key}) : super(key: key);
+  const AboutMeWidget({Key? key, this.experiences}) : super(key: key);
+  final List<String>? experiences;
 
   @override
   Widget build(BuildContext context) {
@@ -24,27 +24,16 @@ class AboutMeWidget extends StatelessWidget {
               style:
                   StyleApp.headline4.copyWith(color: ColorUI.redClothesArsenal),
             )),
-        Padding(
-          padding: const EdgeInsets.only(left: 8.0),
-          child: Text(
-            Constants.dataAboutMe,
-            style: StyleApp.headline4,
-          ),
-        ),
-        Align(
-            alignment: Alignment.centerLeft,
-            child: Text(
-              'Thời gian làm việc:',
-              style:
-                  StyleApp.headline4.copyWith(color: ColorUI.redClothesArsenal),
-            )),
-        Align(
-          alignment: Alignment.centerLeft,
-          child: Padding(
-            padding: const EdgeInsets.only(left: 8.0),
-            child: Text(
-              Constants.company,
-              style: StyleApp.headline4,
+        Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: List.generate(
+            experiences?.length ?? 0,
+            (index) => Padding(
+              padding: const EdgeInsets.only(left: 8.0),
+              child: Text(
+                '- ${experiences?[index]}',
+                style: StyleApp.headline4,
+              ),
             ),
           ),
         ),
