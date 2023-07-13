@@ -30,6 +30,11 @@ class ProjectPage extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  Text(
+                    "Vai trò: ${project?.role}",
+                    style: const TextStyle(
+                        fontWeight: FontWeight.bold, fontSize: 16),
+                  ),
                   const Text(
                     "Công nghệ sử dụng:",
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
@@ -38,11 +43,6 @@ class ProjectPage extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: List.generate(project?.technologies?.length ?? 0,
                         (index) => Text(project?.technologies?[index] ?? "")),
-                  ),
-                  Text(
-                    "Vai trò: ${project?.role}",
-                    style: const TextStyle(
-                        fontWeight: FontWeight.bold, fontSize: 16),
                   ),
                   Text(
                     "Số lượng thành viên: ${project?.countMembers}",
@@ -107,6 +107,21 @@ class ProjectPage extends StatelessWidget {
                   ),
                   Text(
                     project?.description ?? "",
+                  ),
+                  const SizedBox(height: 8,),
+                  SizedBox(
+                    height: 240,
+                    child: ListView.separated(
+                        shrinkWrap: true,
+                        scrollDirection: Axis.horizontal,
+                        itemBuilder: (_,index){
+                          final image = project?.images?[index]??'';
+                          return Image.network(image,height: 120,);
+                        },
+                      separatorBuilder: (_,index){
+                          return const SizedBox(width: 4);
+                      },
+                    itemCount: project?.images?.length??0,),
                   ),
                 ],
               ),
