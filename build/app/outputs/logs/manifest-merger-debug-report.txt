@@ -27,12 +27,12 @@ MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/nghiahoan
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/nghiahoang/.gradle/caches/transforms-3/837c99e2866aa84d5c619b6e88b7db41/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/3ee0f8915dc9bf42c60f3eef0b7bd28a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/3ee0f8915dc9bf42c60f3eef0b7bd28a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
-MERGED from [androidx.core:core:1.6.0] /Users/nghiahoang/.gradle/caches/transforms-3/aa701b47cec244085d46a1a42fcc7fb9/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.6.0] /Users/nghiahoang/.gradle/caches/transforms-3/aa701b47cec244085d46a1a42fcc7fb9/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/nghiahoang/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/nghiahoang/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nghiahoang/.gradle/caches/transforms-3/cfaa035a43a363ad38f5365ab0b90d5a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nghiahoang/.gradle/caches/transforms-3/cfaa035a43a363ad38f5365ab0b90d5a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.6.0] /Users/nghiahoang/.gradle/caches/transforms-3/aa701b47cec244085d46a1a42fcc7fb9/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.7.0] /Users/nghiahoang/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 	android:name
 		INJECTED from /Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest.xml
 manifest
@@ -44,7 +44,10 @@ MERGED from /Users/nghiahoang/portfolio_app/android/app/src/main/AndroidManifest
 MERGED from [:firebase_storage] /Users/nghiahoang/portfolio_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:cloud_firestore] /Users/nghiahoang/portfolio_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_core] /Users/nghiahoang/portfolio_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:flutter_pdfview] /Users/nghiahoang/portfolio_app/build/flutter_pdfview/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:sqflite] /Users/nghiahoang/portfolio_app/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:url_launcher_android] /Users/nghiahoang/portfolio_app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-16:12
+MERGED from [:path_provider_android] /Users/nghiahoang/portfolio_app/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:webview_flutter_android] /Users/nghiahoang/portfolio_app/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/nghiahoang/.gradle/caches/transforms-3/e1f5bf00836c889852a9a2014464d260/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/nghiahoang/.gradle/caches/transforms-3/542a859793ec57d6a4d40865c7efc6d9/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
@@ -59,20 +62,22 @@ MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/nghiahoang
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/nghiahoang/.gradle/caches/transforms-3/837c99e2866aa84d5c619b6e88b7db41/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/3ee0f8915dc9bf42c60f3eef0b7bd28a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/32e8470ce8090ce4a3255580da6551ae/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/b3aaa08a3f58058a7d57a5e78cb8e348/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.mhiew:android-pdf-viewer:3.2.0-beta.3] /Users/nghiahoang/.gradle/caches/transforms-3/7f1f7e83bd1e2ebca0d37c3ec8256d55/transformed/jetified-android-pdf-viewer-3.2.0-beta.3/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/4895f1faffe56f79fed582760f9714c7/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/b21fac8fcd1472fce41ef9eb718f8588/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/bbe159a6798c7d8a5fe6d4d0f6b92062/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/9412021a32378240c21d255fd6064538/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.6.0] /Users/nghiahoang/.gradle/caches/transforms-3/aa701b47cec244085d46a1a42fcc7fb9/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/nghiahoang/.gradle/caches/transforms-3/d0f809c79e029128874b5601b0b72920/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] /Users/nghiahoang/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/5396a73fd761f1465b5ee1ca5f74c9b2/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nghiahoang/.gradle/caches/transforms-3/cfaa035a43a363ad38f5365ab0b90d5a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/nghiahoang/.gradle/caches/transforms-3/827059b5dbdd36f4518b82e011631b76/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/4347c219bb49b5517c0901825a211a72/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/f28fbf2b5cc15d00b9e189721d0a19db/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/8f6ed0e432a96c9946ce1998221ef429/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/1dfcd597f157c8506cb9f4f998efecca/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/b3aaa08a3f58058a7d57a5e78cb8e348/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/5396a73fd761f1465b5ee1ca5f74c9b2/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/39e1327ceafb30ef117040fe9315a97f/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nghiahoang/.gradle/caches/transforms-3/cfaa035a43a363ad38f5365ab0b90d5a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/4347c219bb49b5517c0901825a211a72/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/9633f98cacc600c55cd8e13ad9ef85d0/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.mhiew:pdfium-android:1.9.2] /Users/nghiahoang/.gradle/caches/transforms-3/e598230b44a8815d0293f452e842a349/transformed/jetified-pdfium-android-1.9.2/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/8129b238d4d069661aca07bff47ad65b/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.50.2] /Users/nghiahoang/.gradle/caches/transforms-3/2a83207a49bc089d03b815b8ac6abc99/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/f95b31beb5b7f2eb055a97bf2e6fcf0f/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -117,8 +122,14 @@ MERGED from [:cloud_firestore] /Users/nghiahoang/portfolio_app/build/cloud_fires
 MERGED from [:cloud_firestore] /Users/nghiahoang/portfolio_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_core] /Users/nghiahoang/portfolio_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_core] /Users/nghiahoang/portfolio_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_pdfview] /Users/nghiahoang/portfolio_app/build/flutter_pdfview/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_pdfview] /Users/nghiahoang/portfolio_app/build/flutter_pdfview/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] /Users/nghiahoang/portfolio_app/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] /Users/nghiahoang/portfolio_app/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:url_launcher_android] /Users/nghiahoang/portfolio_app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:url_launcher_android] /Users/nghiahoang/portfolio_app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/nghiahoang/portfolio_app/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/nghiahoang/portfolio_app/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:webview_flutter_android] /Users/nghiahoang/portfolio_app/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:webview_flutter_android] /Users/nghiahoang/portfolio_app/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/nghiahoang/.gradle/caches/transforms-3/e1f5bf00836c889852a9a2014464d260/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
@@ -147,6 +158,10 @@ MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/nghiah
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/3ee0f8915dc9bf42c60f3eef0b7bd28a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/32e8470ce8090ce4a3255580da6551ae/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/32e8470ce8090ce4a3255580da6551ae/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/b3aaa08a3f58058a7d57a5e78cb8e348/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/b3aaa08a3f58058a7d57a5e78cb8e348/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.mhiew:android-pdf-viewer:3.2.0-beta.3] /Users/nghiahoang/.gradle/caches/transforms-3/7f1f7e83bd1e2ebca0d37c3ec8256d55/transformed/jetified-android-pdf-viewer-3.2.0-beta.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.mhiew:android-pdf-viewer:3.2.0-beta.3] /Users/nghiahoang/.gradle/caches/transforms-3/7f1f7e83bd1e2ebca0d37c3ec8256d55/transformed/jetified-android-pdf-viewer-3.2.0-beta.3/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/4895f1faffe56f79fed582760f9714c7/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/4895f1faffe56f79fed582760f9714c7/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/b21fac8fcd1472fce41ef9eb718f8588/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
@@ -155,26 +170,26 @@ MERGED from [androidx.activity:activity:1.0.0] /Users/nghiahoang/.gradle/caches/
 MERGED from [androidx.activity:activity:1.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/bbe159a6798c7d8a5fe6d4d0f6b92062/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/9412021a32378240c21d255fd6064538/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/9412021a32378240c21d255fd6064538/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.6.0] /Users/nghiahoang/.gradle/caches/transforms-3/aa701b47cec244085d46a1a42fcc7fb9/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.6.0] /Users/nghiahoang/.gradle/caches/transforms-3/aa701b47cec244085d46a1a42fcc7fb9/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/nghiahoang/.gradle/caches/transforms-3/d0f809c79e029128874b5601b0b72920/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/nghiahoang/.gradle/caches/transforms-3/d0f809c79e029128874b5601b0b72920/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/nghiahoang/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/nghiahoang/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/5396a73fd761f1465b5ee1ca5f74c9b2/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/5396a73fd761f1465b5ee1ca5f74c9b2/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nghiahoang/.gradle/caches/transforms-3/cfaa035a43a363ad38f5365ab0b90d5a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nghiahoang/.gradle/caches/transforms-3/cfaa035a43a363ad38f5365ab0b90d5a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/nghiahoang/.gradle/caches/transforms-3/827059b5dbdd36f4518b82e011631b76/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/nghiahoang/.gradle/caches/transforms-3/827059b5dbdd36f4518b82e011631b76/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/4347c219bb49b5517c0901825a211a72/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/4347c219bb49b5517c0901825a211a72/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/f28fbf2b5cc15d00b9e189721d0a19db/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/f28fbf2b5cc15d00b9e189721d0a19db/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/8f6ed0e432a96c9946ce1998221ef429/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/8f6ed0e432a96c9946ce1998221ef429/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/1dfcd597f157c8506cb9f4f998efecca/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/1dfcd597f157c8506cb9f4f998efecca/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/b3aaa08a3f58058a7d57a5e78cb8e348/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/b3aaa08a3f58058a7d57a5e78cb8e348/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/5396a73fd761f1465b5ee1ca5f74c9b2/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/5396a73fd761f1465b5ee1ca5f74c9b2/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/39e1327ceafb30ef117040fe9315a97f/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/39e1327ceafb30ef117040fe9315a97f/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nghiahoang/.gradle/caches/transforms-3/cfaa035a43a363ad38f5365ab0b90d5a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nghiahoang/.gradle/caches/transforms-3/cfaa035a43a363ad38f5365ab0b90d5a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/4347c219bb49b5517c0901825a211a72/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/4347c219bb49b5517c0901825a211a72/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/9633f98cacc600c55cd8e13ad9ef85d0/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/nghiahoang/.gradle/caches/transforms-3/9633f98cacc600c55cd8e13ad9ef85d0/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.mhiew:pdfium-android:1.9.2] /Users/nghiahoang/.gradle/caches/transforms-3/e598230b44a8815d0293f452e842a349/transformed/jetified-pdfium-android-1.9.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.mhiew:pdfium-android:1.9.2] /Users/nghiahoang/.gradle/caches/transforms-3/e598230b44a8815d0293f452e842a349/transformed/jetified-pdfium-android-1.9.2/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/8129b238d4d069661aca07bff47ad65b/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/nghiahoang/.gradle/caches/transforms-3/8129b238d4d069661aca07bff47ad65b/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.50.2] /Users/nghiahoang/.gradle/caches/transforms-3/2a83207a49bc089d03b815b8ac6abc99/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:5:5-7:41

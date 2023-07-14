@@ -1,4 +1,0 @@
-#Thu Jul 13 21:15:31 ICT 2023
-base.0=/Users/nghiahoang/portfolio_app/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex

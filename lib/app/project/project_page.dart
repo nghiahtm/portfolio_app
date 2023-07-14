@@ -17,11 +17,21 @@ class ProjectPage extends StatelessWidget {
           padding: EdgeInsets.zero,
           physics: const ClampingScrollPhysics(),
           children: [
-            Container(
-                color: Colors.white,
-                height: 120,
-                padding: const EdgeInsets.all(16),
-                child: Image.network(project?.image ?? "")),
+            Material(
+              shape: const CircleBorder(),
+              elevation: 8,
+              clipBehavior: Clip.antiAliasWithSaveLayer,
+              child: Container(
+                  alignment: Alignment.center,
+                  decoration: const BoxDecoration(
+                      color: Colors.white,),
+                  child: Image.network(
+                    project?.image ?? "",
+                    fit: BoxFit.cover,
+                    height: 60,
+                    width: 60,
+                  )),
+            ),
             const SizedBox(
               height: 8,
             ),
@@ -108,20 +118,26 @@ class ProjectPage extends StatelessWidget {
                   Text(
                     project?.description ?? "",
                   ),
-                  const SizedBox(height: 8,),
+                  const SizedBox(
+                    height: 8,
+                  ),
                   SizedBox(
                     height: 240,
                     child: ListView.separated(
-                        shrinkWrap: true,
-                        scrollDirection: Axis.horizontal,
-                        itemBuilder: (_,index){
-                          final image = project?.images?[index]??'';
-                          return Image.network(image,height: 120,);
-                        },
-                      separatorBuilder: (_,index){
-                          return const SizedBox(width: 4);
+                      shrinkWrap: true,
+                      scrollDirection: Axis.horizontal,
+                      itemBuilder: (_, index) {
+                        final image = project?.images?[index] ?? '';
+                        return Image.network(
+                          image,
+                          height: 120,
+                        );
                       },
-                    itemCount: project?.images?.length??0,),
+                      separatorBuilder: (_, index) {
+                        return const SizedBox(width: 4);
+                      },
+                      itemCount: project?.images?.length ?? 0,
+                    ),
                   ),
                 ],
               ),

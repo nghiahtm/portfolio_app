@@ -4,6 +4,7 @@ import 'package:portfolio_nghia/app/home/widget/target_widget.dart';
 import 'package:portfolio_nghia/config/color_ui.dart';
 import 'package:portfolio_nghia/config/constants.dart';
 import 'package:portfolio_nghia/config/image.dart';
+import 'package:portfolio_nghia/config/routes_constant.dart';
 import 'package:portfolio_nghia/config/state_enum.dart';
 import 'package:portfolio_nghia/config/style_app.dart';
 import 'package:portfolio_nghia/app/home/widget/item_contact_widget.dart';
@@ -53,8 +54,7 @@ class HomePage extends StatelessWidget {
                     radius: 60.0,
                     backgroundColor: Colors.transparent,
                     backgroundImage: NetworkImage(
-                      portfolio?.avatar ??
-                          "",
+                      portfolio?.avatar ?? "",
                     ),
                   ),
                   const SizedBox(
@@ -73,15 +73,39 @@ class HomePage extends StatelessWidget {
                       shrinkWrap: true,
                       padding: EdgeInsets.zero,
                       children: [
+                        GestureDetector(
+                          onTap: (){
+                            Navigator.pushNamed(context, RoutesConstant.cv);
+                          },
+                          child: Row(
+                            children: [
+                              Icon(
+                                Icons.newspaper_sharp,
+                                color: ColorUI.redClothesArsenal,
+                              ),
+                              Text(
+                                'Xem CV',
+                                style: StyleApp.headline2,
+                              ),
+                            ],
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(vertical: 16.0),
+                          child: Text(
+                            'Thông tin cá nhân',
+                            style: StyleApp.headline2,
+                          ),
+                        ),
                         AboutMeWidget(
-                          experiences: portfolio?.experience??[],
+                          experiences: portfolio?.experience ?? [],
                         ),
                         ProjectWidget(
                           projects:
                               context.watch<HomeController>().projects ?? [],
                         ),
                         TargetWidget(
-                          target: portfolio?.target??[],
+                          target: portfolio?.target ?? [],
                         ),
                         Padding(
                           padding: const EdgeInsets.symmetric(vertical: 16.0),
